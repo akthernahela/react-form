@@ -47,6 +47,10 @@ export default function Main() {
         <main>
             <ul className="container list-group">
                 <h1>React Blog Form List</h1>
+                <form>
+                    <input type="text" />
+                    <button></button>
+                </form>
                 {
                     foodMenuList.map((menu) => (
                         <li>
