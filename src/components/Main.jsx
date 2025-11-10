@@ -19,11 +19,13 @@ export default function Main() {
             id: 4,
             name: "Tiramisù Classico",
             price: 6.00,
+            description: "Savoiardi inzuppati nel caffè, mascarpone e cacao in polvere.",
         },
         {
             id: 8,
             name: "Cheesecake",
             price: 6.00,
+            description: "Base di biscotti, crema al formaggio."
         }
     ]
     return (
