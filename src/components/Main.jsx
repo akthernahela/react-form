@@ -59,7 +59,7 @@ export default function Main() {
                 <h1>React Blog Form List </h1>
                 <form className="mb-4" onSubmit={handleSubmit}>
                     <div className="input-group">
-                        <input type="text" className="form-control" placeholder="Inserisci il nome del piatto del giorno..." />
+                        <input type="text" className="form-control" placeholder="Inserisci il nome del piatto del giorno..." value={newFoodName} onChange={handleChange} />
                         <button className="btn btn-primary" type="submit">Aggiungi al Menu</button>
                     </div>
                 </form>
