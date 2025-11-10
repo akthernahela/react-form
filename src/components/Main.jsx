@@ -28,10 +28,10 @@ export default function Main() {
     ]
     return (
         <main>
-            <ul className="list-group">
+            <ul className="container list-group">
                 <h1>React Blog Form List</h1>
                 <li>
-                    <a href="#" className="list-group-item list-group-item-action active" aria-current="true">
+                    <a href="#" className="list-group-item list-group-item-action" aria-current="true">
                         <div className="d-flex w-100 justify-content-between">
                             <h5 className="mb-1">List group item heading</h5>
                             <small>3 days ago</small>
