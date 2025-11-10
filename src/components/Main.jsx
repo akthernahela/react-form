@@ -43,6 +43,9 @@ export default function Main() {
     const handleChange = (event) => {
         setnewFoodName(event.target.value);
     };
+    const handleSubmit = (event) => {
+        event.preventDefault()
+    }
     return (
         <main>
             <ul className="container list-group">
