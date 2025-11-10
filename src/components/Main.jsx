@@ -4,16 +4,19 @@ export default function Main() {
             id: 1,
             name: "Bruschetta al Pomodoro",
             price: 5.50,
+            description: "Fette di pane toscano tostato con pomodoro fresco, basilico e olio EVO.",
         },
         {
             id: 2,
             name: "Spaghetti alla Carbonara",
             price: 12.50,
+            description: "Spaghetti con guanciale, tuorlo d'uovo, pecorino romano e pepe nero.",
         },
         {
             id: 3,
             name: "Filetto di Manzo",
             price: 24.00,
+            description: "Filetto di manzo cotto alla perfezione, e patate al forno.",
         },
         {
             id: 4,
