@@ -5,30 +5,35 @@ export default function Main() {
             name: "Bruschetta al Pomodoro",
             price: 5.50,
             description: "Fette di pane toscano tostato con pomodoro fresco, basilico e olio EVO.",
+            category: "Antipasti",
         },
         {
             id: 2,
             name: "Spaghetti alla Carbonara",
             price: 12.50,
             description: "Spaghetti con guanciale, tuorlo d'uovo, pecorino romano e pepe nero.",
+            category: "Antipasti",
         },
         {
             id: 3,
             name: "Filetto di Manzo",
             price: 24.00,
             description: "Filetto di manzo cotto alla perfezione, e patate al forno.",
+            category: "Antipasti",
         },
         {
             id: 4,
             name: "Tiramisù Classico",
             price: 6.00,
             description: "Savoiardi inzuppati nel caffè, mascarpone e cacao in polvere.",
+            category: "Antipasti",
         },
         {
             id: 8,
             name: "Cheesecake",
             price: 6.00,
-            description: "Base di biscotti, crema al formaggio."
+            description: "Base di biscotti, crema al formaggio.",
+            category: "Antipasti",
         }
     ]
     return (
