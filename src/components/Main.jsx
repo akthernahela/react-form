@@ -28,11 +28,17 @@ export default function Main() {
     ]
     return (
         <main>
-            <ul class="list-group">
+            <ul className="list-group">
                 <h1>React Blog Form List</h1>
-                <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="" id="1" />
-                    <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
+                <li>
+                    <a href="#" className="list-group-item list-group-item-action active" aria-current="true">
+                        <div className="d-flex w-100 justify-content-between">
+                            <h5 className="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p className="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>And some small print.</small>
+                    </a>
                 </li>
             </ul>
         </main>
