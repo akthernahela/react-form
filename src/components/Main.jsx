@@ -38,10 +38,13 @@ export default function Main() {
         }
     ]
     const [foodMenuList, setfoodMenuList] = useState(foodMenu);
-    const [newList, setnewList] = useState('');
+    const [newFoodName, setnewFoodName] = useState('');
+
     const handleChange = (event) => {
-        setnewList(event.target.value);
+        setnewFoodName(event.target.value);
     };
+
+
     return (
         <main>
             <ul className="container list-group">
