@@ -46,11 +46,11 @@ export default function Main() {
     return (
         <main>
             <ul className="container list-group">
-                <h1>React Blog Form List</h1>
-                <form>
-                    <div>
-                        <input type="text" />
-                        <button></button>
+                <h1>React Blog Form List </h1>
+                <form className="mb-4">
+                    <div className="input-group">
+                        <input type="text" className="form-control" placeholder="Inserisci il nome del piatto del giorno..." />
+                        <button className="btn btn-primary" type="submit">Aggiungi al Menu</button>
                     </div>
                 </form>
                 {
