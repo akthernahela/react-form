@@ -42,7 +42,7 @@ export default function Main() {
                 <h1>React Blog Form List</h1>
                 {
                     foodMenu.map((menu) => (
-                        <li>
+                        {/*<li>
                             <a href="#" className="list-group-item list-group-item-action" aria-current="true">
                                 <div className="d-flex w-100 justify-content-between" key={menu.id}>
                                     <h5 className="mb-1">{menu.name}</h5>
@@ -51,7 +51,8 @@ export default function Main() {
                                 <p className="mb-1">{menu.description}</p>
                                 <small>{menu.category}</small>
                             </a>
-                        </li>))
+                        </li>*/}
+                    ))
                 }
 
             </ul>
