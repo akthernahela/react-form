@@ -50,6 +50,8 @@ export default function Main() {
             price: 10.00,
             category: "Nuovo",
         };
+        setfoodMenuList(prevList => [...prevList, newItem]);
+        setnewFoodName('');
     }
     return (
         <main>
