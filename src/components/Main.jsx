@@ -48,7 +48,7 @@ export default function Main() {
         const newItem = {
             name: newFoodName,
             price: 10.00,
-            category: "Nuovo",
+            category: "Piatto del giorno!",
         };
         setfoodMenuList(prevList => [...prevList, newItem]);
         setnewFoodName('');
