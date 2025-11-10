@@ -45,6 +45,11 @@ export default function Main() {
     };
     const handleSubmit = (event) => {
         event.preventDefault()
+        const newItem = {
+            name: newFoodName,
+            price: 10.00,
+            category: "Nuovo",
+        };
     }
     return (
         <main>
