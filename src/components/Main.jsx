@@ -43,14 +43,12 @@ export default function Main() {
     const handleChange = (event) => {
         setnewFoodName(event.target.value);
     };
-
-
     return (
         <main>
             <ul className="container list-group">
                 <h1>React Blog Form List</h1>
                 {
-                    foodMenu.map((menu) => (
+                    foodMenuList.map((menu) => (
                         <li>
                             <a href="#" className="list-group-item list-group-item-action" aria-current="true">
                                 <div className="d-flex w-100 justify-content-between" key={menu.id}>
