@@ -44,12 +44,12 @@ export default function Main() {
                     foodMenu.map((menu) => (
                         <li>
                             <a href="#" className="list-group-item list-group-item-action" aria-current="true">
-                                <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">List group item heading</h5>
-                                    <small>3 days ago</small>
+                                <div className="d-flex w-100 justify-content-between" key={menu.id}>
+                                    <h5 className="mb-1">{menu.name}</h5>
+                                    <small>{menu.price} euro</small>
                                 </div>
-                                <p className="mb-1">Some placeholder content in a paragraph.</p>
-                                <small>And some small print.</small>
+                                <p className="mb-1">{menu.description}</p>
+                                <small>{menu.category}</small>
                             </a>
                         </li>))
                 }
